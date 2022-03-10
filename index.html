@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> the table</title>
+        <style>
+          ul {
+              list-style-type: none;
+              width: auto;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: rgb(0, 0, 0);
+          }
+  
+          li {
+              color: white;
+              float: left;
+          }
+  
+          li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 16px;
+              text-decoration: none;
+          }
+  
+          li a:hover {
+              background-color: rgb(105, 104, 104);
+          }
+  
+          table,
+          th,
+          td,
+          tr {
+  
+              border: 1px;
+              text-align: center;
+              border-style: solid;
+              margin: auto;
+              border-collapse: collapse;
+          }
+      </style>
+    </head>
+    <body>
+      <ul>
+        <li><a href="#home">
+                <p>Home</p>
+            </a></li>
+        <li><a href="#table">
+                <p>Table</p>
+            </a></li>
+        <li><a href="#map">
+                <p>Map</p>
+            </a></li>
+    </ul>
+
+    <h1><a name="home">Home</a> </h1>
+    <img src="r.jpeg" alt="shoubra" >
+
+    <h1><a name="table">Table</a> </h1>
+
+      <table  style="width: 80%; height: 60%;">
+        <colgroup>
+          <col span="2" style="background-color: #D6EEEE">
+          <col span="3" style="background-color: pink">
+        </colgroup>
+        <tr>
+          <td></td>
+          <td>monday<</td>
+          <td>tuesday</td>
+          <td>wednesday</td>
+          <td>thursday</td>
+          <td>friday</td>
+        </tr>
+        <tr>
+          <td>1:00 pm</td>
+          <td rowspan="2"><a href="">html</a></td>
+          <td></td>
+          <td rowspan="2">html</td>
+          <td rowspan="8">html hour<br> by apps</td>
+          <td rowspan="2">html</td>
+        </tr>
+       
+        <tr>
+          <td>3:00 pm</td>
+          <th rowspan="2">dept meeting</th>
+        </tr>  
+        <tr>
+          <td>2:00 pm</td>
+          <td rowspan="3">css</td>
+          <td rowspan="3">css</td>
+          <td rowspan="3">css</td>
+        </tr>  
+       <tr>
+        <td>3:00 pm</td>
+        <td></td>
+       </tr>
+       <tr>
+         <td>5:00 pm</td>
+         <td rowspan="3">ec meeting</td>
+       </tr>
+       <tr>
+         <td>3:30 pm</td>
+         <td rowspan="3">csc205</td>
+         <td rowspan="3">csc205</td>
+         <td rowspan="3">csc205</td>
+       </tr>
+       <tr>
+        <td>3:30 pm</td>
+       
+       </tr>
+       <tr>
+         <td>4:00 pm</td>
+         <td></td>
+       </tr>
+      </table>
+      <h1><a name="map">Map</a> </h1>
+      <img src="map1.jpeg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+      
+    </body>
+</html>
